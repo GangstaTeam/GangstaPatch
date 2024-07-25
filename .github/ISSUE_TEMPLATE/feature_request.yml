@@ -3,7 +3,7 @@ description: "Suggest a new feature."
 title: "[Feature Request]: "
 labels: [ "Feature Request" ]
 body:
-- type: markdown
+  - type: markdown
     attributes:
       value: |
         **Don't request feature that doesn't fit the patch itself as:**
