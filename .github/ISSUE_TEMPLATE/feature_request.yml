@@ -1,0 +1,28 @@
+name: "Feature Request"
+description: "Suggest a new feature."
+title: "[Feature Request]: "
+labels: [ "Feature Request" ]
+body:
+- type: markdown
+    attributes:
+      value: |
+        **Don't request feature that doesn't fit the patch itself as:**
+        - Gameplay changes that can affect game behavior.
+        - Modifications that would require modifying game files in anyway.
+  - type: textarea
+    id: issue_description
+    attributes:
+      label: "Description:"
+      description: |
+        A concise description of the feature you want.
+
+        - Include step by step examples of how the feature should work.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots/Video:"
+      description: "Attach screenshots or gif/videos to clarify the context. They often convey useful information that is omitted by the description."
+    validations:
+      required: false

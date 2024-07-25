@@ -1,0 +1,22 @@
+name: "Bug/Issue Report"
+description: "Report bug with the patch itself or issue that should be fixed by patch."
+title: "[BUG]: "
+labels: [ "Bug" ]
+body:
+  - type: textarea
+    id: issue_description
+    attributes:
+      label: "Description:"
+      description: |
+        A concise description of the bug or issue.
+
+        - Include step by step examples of how the bug/issue can be reproduced if possible.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots/Video:"
+      description: "Attach screenshots or gif/videos to clarify the context. They often convey useful information that is omitted by the description."
+    validations:
+      required: false
