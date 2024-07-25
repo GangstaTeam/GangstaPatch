@@ -1,0 +1,19 @@
+name: "Question"
+description: "Ask a question."
+title: "[QUESTION]: "
+labels: [ "question" ]
+body:
+  - type: textarea
+    id: issue_description
+    attributes:
+      label: "Description:"
+      description: "A concise description of the question."
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots/Video:"
+      description: "Attach screenshots or gif/videos to clarify the context. They often convey useful information that is omitted by the question."
+    validations:
+      required: false

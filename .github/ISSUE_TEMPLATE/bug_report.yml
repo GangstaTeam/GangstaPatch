@@ -1,7 +1,7 @@
 name: "Bug/Issue Report"
 description: "Report bug with the patch itself or issue with the game that should be fixed."
 title: "[BUG]: "
-labels: [ "Bug" ]
+labels: [ "bug" ]
 body:
   - type: textarea
     id: issue_description
