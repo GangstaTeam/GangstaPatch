@@ -14,6 +14,7 @@
 1. Download png pack of button prompts: 
     - [PlayStation](Files/controller_playstation.png)
     - [Xbox](Files/controller_xbox.png)
+    - [Steam Deck](Files/controller_steamdeck.png)
 2. Place the file inside game folder under folder `patch`, create one if doesn't exist.
 3. Rename the file to `controller.png`.
 
