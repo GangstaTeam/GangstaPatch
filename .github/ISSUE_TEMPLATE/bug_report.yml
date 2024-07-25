@@ -1,5 +1,5 @@
 name: "Bug/Issue Report"
-description: "Report bug with the patch itself or issue that should be fixed by patch."
+description: "Report bug with the patch itself or issue with the game that should be fixed."
 title: "[BUG]: "
 labels: [ "Bug" ]
 body:
