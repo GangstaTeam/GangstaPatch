@@ -37,6 +37,7 @@ Vibrance=50             ; Adjustable vibrance (1 - 100) (50 -> Default)
 ShowFPS=0	            ; Shows FPS at left corner.
 SkipLicenseScreen=0	    ; Skips license screen while starting up game.
 SkipMovies=0	        ; Skips intro movies while starting up game.
+WidescreenHUD=1         ; Modifies 4:3 HUD to 16:9 Ratio.
 
 [Windowed]
 Mode=0	                ; 0: None, 1: Windowed, 2: Windowed Borderless
