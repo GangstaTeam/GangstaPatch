@@ -4,5 +4,6 @@
 
 ## 2024-07-27
 ### Added
+- Added in-game settings integration for certain settings.
 - Fixed option 'Tape Player' not been saved.
 - Basic file logger for some basic stuff.
