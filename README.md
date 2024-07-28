@@ -3,7 +3,7 @@
 [![Changelog](https://img.shields.io/badge/Changelog-ED1459)](CHANGELOG.md)
 
 - Unofficial patch for v1.00.2 to make the game playable on modern systems and various improvements to the gameplay.
-- This is patch will never have versioning because it's continuous work and latest build should be used as "stable" build.
+- This patch will never have versioning because it's continuous work and latest build should be used as "stable" build.
 - If there is some issue/request just open new issue and fill out the predefined template.
 
 ## Installation
@@ -34,7 +34,7 @@ Brightness=5
 Mouse=10                ; Mouse speed
 
 ; Additional Patch options:
-Vibrance=50             ; Adjustable vibrance (1 - 100) (50 -> Default)
+Vibrance=50             ; Adjustable vibrance (0 - 100) (50 -> Default)
 ShowFPS=0	            ; Shows FPS at left corner.
 SkipLicenseScreen=0	    ; Skips license screen while starting up game.
 SkipMovies=0	        ; Skips intro movies while starting up game.
