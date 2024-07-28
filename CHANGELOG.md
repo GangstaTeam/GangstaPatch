@@ -4,6 +4,7 @@
 
 ## 2024-07-28
 ### Fixed
+- 3D Audio pitch issues.
 - Changing resolution while using windowed mode.
 
 ## 2024-07-27
