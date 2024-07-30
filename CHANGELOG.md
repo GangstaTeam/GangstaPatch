@@ -2,6 +2,10 @@
 
 - All updates related to GangstaPatch will be documented in this file.
 
+## 2024-07-30
+### Added
+- Crash Handler.
+
 ## 2024-07-28
 ### Fixed
 - 3D Audio pitch issues.
