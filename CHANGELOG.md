@@ -2,6 +2,10 @@
 
 - All updates related to GangstaPatch will be documented in this file.
 
+## 2024-08-03
+### Fixed
+- Issue with bullet rattle that would cause camera to continuously spin around.
+
 ## 2024-07-31
 ### Added
 - Mouse wheel weapon switching.
