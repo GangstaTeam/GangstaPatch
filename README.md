@@ -21,6 +21,12 @@
 2. Place the file inside game folder under folder `patch`, create one if doesn't exist.
 3. Rename the file to `controller.png`.
 
+## Known Issues
+- Controller doesn't work at start of the game:
+    - You're not able to press accept button at main screen while controller is plugged, temporary solution that works is to move right analog around for some time and try spamming the accept button.
+- Tony is moving too fast:
+    - This issue is mostly related to framerate, simple fix solution is to lock fps to 60 or below.
+
 ## INI Settings
 - All those options are configurable in 'settings.ini'. The file is automatically created when launching game for the first time with the patch otherwise you can create it manually.
 ```ini
@@ -50,6 +56,5 @@ Enable=0                ; Enables blur & bloom.
 Bloom=50                ; The game uses dynamic value, using this option will force the value to be always same
 
 [Patch]
-AffinityMode=0          ; 0: None, 1: All besides core 0 (Might improve performance on Hyper-threaded CPU), 2: Game Handled (Default)
 DebugMenu=0             ; Shows debug option in the pause menu.
 ```

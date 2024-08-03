@@ -5,6 +5,8 @@
 ## 2024-08-03
 ### Added
 - Post-process FX settings in game options.
+### Changed
+- Affinity mode has been modified and option to change the behavior is no longer available, the current way should be final as this will behave mostly as the game wanted while keeping other non-game related thread unaffected. (This should also fix issues with profiles not loading at start of the game)
 ### Fixed
 - Issue with bullet rattle that would cause camera to continuously spin around.
 
