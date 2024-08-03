@@ -7,9 +7,11 @@
 - If there is some issue/request just open new issue and fill out the predefined template.
 
 ## Installation
-1. Download latest release.
-2. Download ASI Loader or [Simple ASI Loader](https://github.com/sneakyevil/SimpleASILoader/releases/download/vorbisfile/vorbisfile.dll).
-3. Place asi file of the patch in game folder / plugins folder.
+1. Download [Simple ASI Loader (vorbisfile.dll)](https://github.com/sneakyevil/SimpleASILoader/releases/download/vorbisfile/vorbisfile.dll).
+2. Rename `vorbisfile.dll` to `vorbisfile_original.dll` inside game folder.
+3. Place Simple ASI Loader (vorbisfile.dll) in game folder.
+4. Download latest build of [GangstaPatch.asi](https://github.com/GangstaTeam/GangstaPatch/releases/latest/download/GangstaPatch.asi).
+5. Place asi file in game folder or plugins folder.
 
 ## Controller Prompts Installation
 1. Download png pack of button prompts: 
