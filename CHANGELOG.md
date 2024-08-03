@@ -3,6 +3,8 @@
 - All updates related to GangstaPatch will be documented in this file.
 
 ## 2024-08-03
+### Added
+- Post-process FX settings in game options.
 ### Fixed
 - Issue with bullet rattle that would cause camera to continuously spin around.
 
