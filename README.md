@@ -1,6 +1,7 @@
 ## GangstaPatch
-[![Download Latest Release](https://img.shields.io/github/v/release/GangstaTeam/GangstaPatch?display_name=release&label=Download%20latest%20release&color=21abc7)](https://github.com/GangstaTeam/GangstaPatch/releases/latest/download/GangstaPatch.asi)
-[![Changelog](https://img.shields.io/badge/Changelog-ED1459)](CHANGELOG.md)
+[![Download Latest Release](https://img.shields.io/github/v/release/GangstaTeam/GangstaPatch?display_name=release&label=Download%20latest%20release&color=21abc7)](https://github.com/GangstaTeam/GangstaPatch/releases/latest/download/GangstaPatch.asi)&nbsp;
+[![Changelog](https://img.shields.io/badge/Changelog-ED1459)](CHANGELOG.md)&nbsp;
+[![Patches](https://img.shields.io/badge/Patches-21abc7)](PATCHES.md)
 
 - Unofficial patch for v1.00.2 to make the game playable on modern systems and various improvements to the gameplay.
 - This patch will never have versioning because it's continuous work and latest build should be used as "stable" build.
@@ -24,8 +25,6 @@
 ## Known Issues
 - Controller doesn't work at start of the game:
     - You're not able to press accept button at main screen while controller is plugged, temporary solution that works is to move right analog around for some time and try spamming the accept button.
-- Tony is moving too fast:
-    - This issue is mostly related to framerate, simple fix solution is to lock fps to 60 or below.
 
 ## INI Settings
 - All those options are configurable in 'settings.ini'. The file is automatically created when launching game for the first time with the patch otherwise you can create it manually.
