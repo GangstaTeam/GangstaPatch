@@ -2,6 +2,10 @@
 
 - All updates related to GangstaPatch will be documented in this file.
 
+## 2024-08-04
+### Fixed
+- Vehicle glass having wrong transparency for base texture.
+
 ## 2024-08-03
 ### Added
 - Post-process FX settings in game options.
