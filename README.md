@@ -47,6 +47,10 @@ SkipLicenseScreen=0	    ; Skips license screen while starting up game.
 SkipMovies=0	        ; Skips intro movies while starting up game.
 WidescreenHUD=1         ; Modifies 4:3 HUD to 16:9 Ratio.
 
+[Bind]
+WallCover=H             ; Changed to 'H', game's default is 'Enter'
+Walk=ALT
+
 [Windowed]
 Mode=0	                ; 0: None, 1: Windowed, 2: Windowed Borderless
 
