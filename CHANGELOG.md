@@ -2,6 +2,12 @@
 
 - All updates related to GangstaPatch will be documented in this file.
 
+## 2024-08-05
+### Added
+- Option to change bind for Wall Cover & Walk.
+### Fixed
+- Icons in Empire been wrongly offset while using Widescreen HUD.
+
 ## 2024-08-04
 ### Fixed
 - Vehicle glass having wrong transparency for base texture.
