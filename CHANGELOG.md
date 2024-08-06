@@ -2,6 +2,12 @@
 
 - All updates related to GangstaPatch will be documented in this file.
 
+## 2024-08-06
+### Added
+- Option to change emission rate for particle emitter.
+### Fixed
+- Random crash that could occur in function that generates random number (division by zero).
+
 ## 2024-08-05
 ### Added
 - Option to change bind for Wall Cover & Walk.

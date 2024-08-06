@@ -85,6 +85,10 @@
         <td>The game has small list of controllers that it automatically maps. The patch checks for more controllers and rename them to match one of the game list and map all buttons properly.</td>
     </tr>
     <tr>
+        <td>Particle Emitter (Emission Rate)</td>
+        <td>The game is constantly checking for frame time and how many particles should be rendered on the screen, the only down-side of this feature is that it is hardcoded to 30 FPS. By having the option on 'Balanced' the value will be set to refresh-rate this will assure that particles near view won't cause FPS drops otherwise going to 'Performance' or 'Potato' will limit particles.</td>
+    </tr>
+    <tr>
         <td>Post-Process FX</td>
         <td>This option is unused in the game. It add blur that might not be good for someone's eyes, but has additional bloom effect.</td>
     </tr>

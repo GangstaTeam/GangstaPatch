@@ -54,6 +54,9 @@ Walk=ALT
 [Windowed]
 Mode=0	                ; 0: None, 1: Windowed, 2: Windowed Borderless
 
+[ParticleEmitter]
+EmissionRate=2          ; 0: Disabled, 1: Quality, 2: Balanced, 3: Performance, 4: Potato
+
 [PostProcessFX]
 Enable=0                ; Enables blur & bloom.
 Bloom=50                ; The game uses dynamic value, using this option will force the value to be always same
