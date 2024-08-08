@@ -1,7 +1,6 @@
 ## GangstaPatch
 [![Download Latest Release](https://img.shields.io/github/v/release/GangstaTeam/GangstaPatch?display_name=release&label=Download%20latest%20release&color=21abc7)](https://github.com/GangstaTeam/GangstaPatch/releases/latest/download/GangstaPatch.asi)&nbsp;
 [![Changelog](https://img.shields.io/badge/Changelog-ED1459)](CHANGELOG.md)&nbsp;
-[![Patches](https://img.shields.io/badge/Patches-21abc7)](PATCHES.md)
 
 - Unofficial patch for v1.00.2 to make the game playable on modern systems and various improvements to the gameplay.
 - This patch will never have versioning because it's continuous work and latest build should be used as "stable" build.
@@ -27,7 +26,8 @@
     - You're not able to press accept button at main screen while controller is plugged, temporary solution that works is to move right analog around for some time and try spamming the accept button.
 
 ## INI Settings
-- All those options are configurable in 'settings.ini'. The file is automatically created when launching game for the first time with the patch otherwise you can create it manually.
+- All these options are configurable in 'settings.ini'. The file is automatically created when launching game for the first time with the patch otherwise you can create it manually.
+- Most options are configurable in game options.
 ```ini
 [Scarface]
 ScreenWidth=640         ; Width of the window
@@ -64,3 +64,37 @@ Bloom=50                ; The game uses dynamic value, using this option will fo
 [Patch]
 DebugMenu=0             ; Shows debug option in the pause menu.
 ```
+
+## List of Patches
+- Additions
+    - Ability to walk with keyboard.
+    - Controller Button Prompts with support of creating own buttons.
+    - Native way of running game in windowed/windowed borderless.
+    - Widescreen HUD (Work in progress).
+    - Changing vibrance of display.
+    - Option to change emission rate for Particle Emitter.
+    - Option to toggle unused Post-Process FX.
+    - Option to skip license screen & movies.
+- Fixes
+    - 3D Audio causing pitch changes.
+    - Auto Player/Vehicle Tape not been saved between game sessions.
+    - Character animations frametime been clamped while playing on high FPS causing animations to play in fast-motion.
+    - Character movement having inconsistent speed.
+    - Culling mode causing certain parts of model render as invisible.
+    - Mouse input been clamped as analog stick.
+    - Ocean animation playing too fast/slow depeding on FPS.
+    - Rendering issues causing game not to render properly at all.
+    - Shadow color glitching in certain areas of map.
+    - Vehicle collision with objects would cause it to launch to air at high FPS.
+    - Weapon bullet rattle sometimes causing camera to spin continuously.
+    - Weapon bullet rattle missing maximum side value.
+- Improvements
+    - Properly handle process & thread affinity without hurting performance of the game.
+    - Registry settings moved to ini file in the game folder.
+    - Removed camera blending, because it interferes with mouse input.
+    - Lack of display resolutions in game option.
+    - Vehicle glass shader rewritten to support windshield & window damage and better reflection to match console versions.
+    - Vehicle shininess modified to match console versions.
+    - Better support for Xbox controller mapping.
+    - Multiple performance improvements:
+        - Due to decision of using v1.00.2 (ActiveMARK protected) version of game, there are bunch of left-over checks that has been removed. There are also some left-over stuff that has been removed that could cause micro-stutters and much more.
