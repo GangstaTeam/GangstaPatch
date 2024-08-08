@@ -75,6 +75,8 @@ DebugMenu=0             ; Shows debug option in the pause menu.
     - Option to change emission rate for Particle Emitter.
     - Option to toggle unused Post-Process FX.
     - Option to skip license screen & movies.
+    - Cheat codes for blue suit outfits:
+        - BLUE, BLUEPIN
 - Fixes
     - 3D Audio causing pitch changes.
     - Auto Player/Vehicle Tape not been saved between game sessions.
