@@ -2,6 +2,10 @@
 
 - All updates related to GangstaPatch will be documented in this file.
 
+## 2024-08-12
+### Fixed
+- Cop/Gang Heat text not been properly offset in Widescreen HUD.
+
 ## 2024-08-06
 ### Added
 - Option to change emission rate for particle emitter.
