@@ -2,6 +2,10 @@
 
 - All updates related to GangstaPatch will be documented in this file.
 
+## 2024-08-14
+### Added
+- Dynamic Blood on Tony & Peds has been restored to similar functionality as PS2 version.
+
 ## 2024-08-12
 ### Fixed
 - Cop/Gang Heat text not been properly offset in Widescreen HUD.

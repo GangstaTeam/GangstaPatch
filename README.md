@@ -69,6 +69,7 @@ DebugMenu=0             ; Shows debug option in the pause menu.
 - Additions
     - Ability to walk with keyboard.
     - Controller Button Prompts with support of creating own buttons.
+    - Dynamic Blood similar to PS2 Version.
     - Native way of running game in windowed/windowed borderless.
     - Widescreen HUD (Work in progress).
     - Changing vibrance of display.
