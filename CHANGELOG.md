@@ -2,6 +2,13 @@
 
 - All updates related to GangstaPatch will be documented in this file.
 
+## 2024-08-15
+### Fixed
+- Dynamic blood not working on Tony in certain cutscene.
+- Dynamic blood texture filtering.
+### Changed
+- Dynamic blood behavior on certain joints.
+
 ## 2024-08-14
 ### Added
 - Dynamic Blood on Tony & Peds has been restored to similar functionality as PS2 version.
