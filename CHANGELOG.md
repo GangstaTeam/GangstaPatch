@@ -2,6 +2,10 @@
 
 - All updates related to GangstaPatch will be documented in this file.
 
+## 2024-08-16
+### Fixed
+- Fixed issue since last update that would cause game to instantly crash due to dynamic blood changes.
+
 ## 2024-08-15
 ### Fixed
 - Dynamic blood not working on Tony in certain cutscene.
