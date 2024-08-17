@@ -5,6 +5,7 @@
 ## 2024-08-17
 ### Added
 - Reverse-Z that fixes z fighting issues.
+- Option to change language ID.
 
 ## 2024-08-16
 ### Fixed

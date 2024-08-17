@@ -41,6 +41,7 @@ Brightness=5
 Mouse=10                ; Mouse speed
 
 ; Additional Patch options:
+LanguageID=E            ; E (English, Czech, German, Polish, Russian), F (France), I (Italian), S (Spanish) -> Requires specific game files for functionality
 Vibrance=50             ; Adjustable vibrance (0 - 100) (50 -> Default)
 ShowFPS=0	            ; Shows FPS at left corner.
 SkipLicenseScreen=0	    ; Skips license screen while starting up game.
@@ -78,6 +79,7 @@ DebugMenu=0             ; Shows debug option in the pause menu.
     - Option to skip license screen & movies.
     - Cheat codes for blue suit outfits:
         - BLUE, BLUEPIN
+    - Option to change language ID.
 - Fixes
     - 3D Audio causing pitch changes.
     - Auto Player/Vehicle Tape not been saved between game sessions.
