@@ -2,6 +2,10 @@
 
 - All updates related to GangstaPatch will be documented in this file.
 
+## 2024-08-17
+### Added
+- Reverse-Z that fixes z fighting issues.
+
 ## 2024-08-16
 ### Fixed
 - Fixed issue since last update that would cause game to instantly crash due to dynamic blood changes.

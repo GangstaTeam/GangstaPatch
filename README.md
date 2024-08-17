@@ -92,6 +92,7 @@ DebugMenu=0             ; Shows debug option in the pause menu.
     - Weapon bullet rattle sometimes causing camera to spin continuously.
     - Weapon bullet rattle missing maximum side value.
 - Improvements
+    - Reverse-Z that fixes z-fighting issues.
     - Properly handle process & thread affinity without hurting performance of the game.
     - Registry settings moved to ini file in the game folder.
     - Removed camera blending, because it interferes with mouse input.
