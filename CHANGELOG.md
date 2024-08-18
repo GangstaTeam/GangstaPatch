@@ -2,6 +2,10 @@
 
 - All updates related to GangstaPatch will be documented in this file.
 
+## 2024-08-18
+### Fixed
+- Language ID been set to 0 instead defaulting to English when not set.
+
 ## 2024-08-17
 ### Added
 - Reverse-Z that fixes z fighting issues.
