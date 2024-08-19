@@ -63,6 +63,7 @@ Enable=0                ; Enables blur & bloom.
 Bloom=50                ; The game uses dynamic value, using this option will force the value to be always same
 
 [Patch]
+EnableMemoryAllocator=0   ; 0: Use system's default malloc/free, 1: Use Doug Lea Memory Allocator
 DebugMenu=0             ; Shows debug option in the pause menu.
 ```
 
@@ -80,6 +81,9 @@ DebugMenu=0             ; Shows debug option in the pause menu.
     - Cheat codes for blue suit outfits:
         - BLUE, BLUEPIN
     - Option to change language ID.
+    - Optional Doug Lea's memory allocator.
+        - Game is calling malloc/free each frame even when rendering basic scene and using memory allocator will re-use already allocated pages and prevent calling system functions.
+        - If you're having frametime spikes you might consider enabling this.
 - Fixes
     - 3D Audio causing pitch changes.
     - Auto Player/Vehicle Tape not been saved between game sessions.
