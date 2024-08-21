@@ -12,6 +12,7 @@
 3. Place Simple ASI Loader (vorbisfile.dll) in game folder.
 4. Download latest build of [GangstaPatch.asi](https://github.com/GangstaTeam/GangstaPatch/releases/latest/download/GangstaPatch.asi).
 5. Place asi file in game folder or plugins folder.
+- If you get error that you're using wrong executable you can try [download v1.00.2 executable](https://mega.nz/file/3CRi2B5A#jL8v6fhbSQrnctYppNIXzozoV9yFVOTsUUssJWODb5g), if that causes game to crash you should download the (Full RIP patched to v1.00.2) from abandonware.
 
 ## Controller Prompts Installation
 1. Download png pack of button prompts: 
