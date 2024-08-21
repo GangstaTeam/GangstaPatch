@@ -5,6 +5,8 @@
 ## 2024-08-21
 ### Added
 - Sniper Rifle can be zoomed with mouse wheel.
+### Fixed
+- Grenade shells ammo indicator not been offset.
 
 ## 2024-08-19
 ### Added
