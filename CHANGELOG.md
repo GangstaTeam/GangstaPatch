@@ -2,6 +2,10 @@
 
 - All updates related to GangstaPatch will be documented in this file.
 
+## 2024-08-21
+### Added
+- Sniper Rifle can be zoomed with mouse wheel.
+
 ## 2024-08-19
 ### Added
 - Optional Doug Lea's memory allocator replacement for default system's malloc/free.
