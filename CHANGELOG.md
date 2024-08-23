@@ -2,6 +2,13 @@
 
 - All updates related to GangstaPatch will be documented in this file.
 
+## 2024-08-23
+### Added
+- Option to change Refresh Rate.
+- Option to change Vertical Synchronization.
+### Fixed
+- Mortar UpForce physics been wrongly calculated above 30 FPS. 
+
 ## 2024-08-21
 ### Added
 - Sniper Rifle can be zoomed with mouse wheel.

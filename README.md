@@ -42,6 +42,8 @@ Brightness=5
 Mouse=10                ; Mouse speed
 
 ; Additional Patch options:
+RefreshRate=60          ; Monitor refresh-rate
+VSync=1                 ; 0: Disable (Unlocks FPS), 1: Enable
 LanguageID=E            ; E (English, Czech, German, Polish, Russian), F (France), I (Italian), S (Spanish) -> Requires specific game files for functionality
 Vibrance=50             ; Adjustable vibrance (0 - 100) (50 -> Default)
 ShowFPS=0	            ; Shows FPS at left corner.
@@ -86,6 +88,8 @@ DebugMenu=0             ; Shows debug option in the pause menu.
         - Game is calling malloc/free each frame even when rendering basic scene and using memory allocator will re-use already allocated pages and prevent calling system functions.
         - If you're having frametime spikes you might consider enabling this.
     - Controlling sniper rifle zoom with mouse wheel.
+    - Option to change Refresh Rate.
+    - Option to change Vertical Synchronization.
 - Fixes
     - 3D Audio causing pitch changes.
     - Auto Player/Vehicle Tape not been saved between game sessions.
@@ -110,3 +114,4 @@ DebugMenu=0             ; Shows debug option in the pause menu.
     - Better support for Xbox controller mapping.
     - Multiple performance improvements:
         - Due to decision of using v1.00.2 (ActiveMARK protected) version of game, there are bunch of left-over checks that has been removed. There are also some left-over stuff that has been removed that could cause micro-stutters and much more.
+    - Mortar UpForce physics been wrongly calculated above 30 FPS.
