@@ -42,7 +42,7 @@ Brightness=5
 Mouse=10                ; Mouse speed
 
 ; Additional Patch options:
-RefreshRate=60          ; Monitor refresh-rate
+RefreshRate=60          ; Monitor refresh-rate (Full-screen Only)
 VSync=1                 ; 0: Disable (Unlocks FPS), 1: Enable
 LanguageID=E            ; E (English, Czech, German, Polish, Russian), F (France), I (Italian), S (Spanish) -> Requires specific game files for functionality
 Vibrance=50             ; Adjustable vibrance (0 - 100) (50 -> Default)
