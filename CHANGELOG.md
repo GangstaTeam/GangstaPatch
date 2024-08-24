@@ -2,6 +2,10 @@
 
 - All updates related to GangstaPatch will be documented in this file.
 
+## 2024-08-24
+### Modified
+- Skin Vertex Shader to pass blood damage constants directly to Pixel Shader.
+
 ## 2024-08-23
 ### Added
 - Option to change Refresh Rate.
