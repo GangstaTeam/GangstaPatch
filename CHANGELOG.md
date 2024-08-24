@@ -3,6 +3,8 @@
 - All updates related to GangstaPatch will be documented in this file.
 
 ## 2024-08-24
+### Updated
+- Dynamic blood is handled on individual joints.
 ### Modified
 - Skin Vertex Shader to pass blood damage constants directly to Pixel Shader.
 
