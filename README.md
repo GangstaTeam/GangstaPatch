@@ -23,8 +23,7 @@
 3. Rename the file to `controller.png`.
 
 ## Known Issues
-- Controller doesn't work at start of the game:
-    - You're not able to press accept button at main screen while controller is plugged, temporary solution that works is to move right analog around for some time and try spamming the accept button.
+...
 
 ## INI Settings
 - All these options are configurable in 'settings.ini'. The file is automatically created when launching game for the first time with the patch otherwise you can create it manually.
