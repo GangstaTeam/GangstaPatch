@@ -2,6 +2,10 @@
 
 - All updates related to GangstaPatch will be documented in this file.
 
+## 2024-08-25
+### Changed
+- Float multiplier in Skin Vertex Shader to get nearest joint damage for blood visualization.
+
 ## 2024-08-24
 ### Updated
 - Dynamic blood is handled on individual joints.
