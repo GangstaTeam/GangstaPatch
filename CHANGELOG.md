@@ -3,6 +3,8 @@
 - All updates related to GangstaPatch will be documented in this file.
 
 ## 2024-08-25
+### Added
+- Saving support for Captions.
 ### Changed
 - Float multiplier in Skin Vertex Shader to get nearest joint damage for blood visualization.
 

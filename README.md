@@ -42,6 +42,7 @@ Brightness=5
 Mouse=10                ; Mouse speed
 
 ; Additional Patch options:
+Captions=0              ; 0: Disabled (Default), 1: Enabled
 RefreshRate=60          ; Monitor refresh-rate (Full-screen Only)
 VSync=1                 ; 0: Disable (Unlocks FPS), 1: Enable
 LanguageID=E            ; E (English, Czech, German, Polish, Russian), F (France), I (Italian), S (Spanish) -> Requires specific game files for functionality
@@ -92,7 +93,7 @@ DebugMenu=0             ; Shows debug option in the pause menu.
     - Option to change Vertical Synchronization.
 - Fixes
     - 3D Audio causing pitch changes.
-    - Auto Player/Vehicle Tape not been saved between game sessions.
+    - Captions, Auto Player/Vehicle Tape not been saved between game sessions.
     - Character animations frametime been clamped while playing on high FPS causing animations to play in fast-motion.
     - Character movement having inconsistent speed.
     - Culling mode causing certain parts of model render as invisible.
