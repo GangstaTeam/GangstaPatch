@@ -2,6 +2,10 @@
 
 - All updates related to GangstaPatch will be documented in this file.
 
+## 2024-09-19
+### Removed
+- All XOR encryption related to addresses/string.
+
 ## 2024-08-25
 ### Fixed
 - Controller accept button not working at the main startup screen asking for press "A/X" button to continue.
