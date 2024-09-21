@@ -2,6 +2,12 @@
 
 - All updates related to GangstaPatch will be documented in this file.
 
+## 2024-09-21
+### Added
+- Option to disable camera acceleration & slowness over target.
+### Changed
+- Removed more related stuff to camera blending to make input from mouse/controller feel more responsive.
+
 ## 2024-09-19
 ### Removed
 - All XOR encryption related to addresses/string.

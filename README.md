@@ -65,6 +65,10 @@ EmissionRate=2          ; 0: Disabled, 1: Quality, 2: Balanced, 3: Performance, 
 Enable=0                ; Enables blur & bloom.
 Bloom=50                ; The game uses dynamic value, using this option will force the value to be always same
 
+[Camera]
+Acceleration=1
+SlowOverTarget=1
+
 [Patch]
 EnableMemoryAllocator=0   ; 0: Use system's default malloc/free, 1: Use Doug Lea Memory Allocator
 DebugMenu=0             ; Shows debug option in the pause menu.
