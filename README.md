@@ -107,6 +107,7 @@ DebugMenu=0             ; Shows debug option in the pause menu.
     - Vehicle collision with objects would cause it to launch to air at high FPS.
     - Weapon bullet rattle sometimes causing camera to spin continuously.
     - Weapon bullet rattle missing maximum side value.
+    - Shaders with alpha been incorrectly rendered.
 - Improvements
     - Reverse-Z that fixes z-fighting issues.
     - Properly handle process & thread affinity without hurting performance of the game.

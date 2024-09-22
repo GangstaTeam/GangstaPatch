@@ -2,6 +2,13 @@
 
 - All updates related to GangstaPatch will be documented in this file.
 
+## 2024-09-23
+### Fixed
+- Shaders with alpha rendering incorrectly:
+    - Number signs front of the buildings.
+    - Text front of the sperm bank.
+    - Sign front of the Oakley Drive-In.
+    - And much more...
 ## 2024-09-21
 ### Added
 - Option to disable camera acceleration & slowness over target.
