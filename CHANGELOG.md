@@ -9,6 +9,8 @@
     - Text front of the sperm bank.
     - Sign front of the Oakley Drive-In.
     - And much more...
+### Added
+- Option to change Field Of View.
 ## 2024-09-21
 ### Added
 - Option to disable camera acceleration & slowness over target.

@@ -66,6 +66,7 @@ Enable=0                ; Enables blur & bloom.
 Bloom=50                ; The game uses dynamic value, using this option will force the value to be always same
 
 [Camera]
+FOV=100                 ; Percentage from original FOV (50 to 200)
 Acceleration=1
 SlowOverTarget=1
 
@@ -94,6 +95,7 @@ DebugMenu=0             ; Shows debug option in the pause menu.
     - Controlling sniper rifle zoom with mouse wheel.
     - Option to change Refresh Rate.
     - Option to change Vertical Synchronization.
+    - Option to change Field Of View
 - Fixes
     - 3D Audio causing pitch changes.
     - Captions, Auto Player/Vehicle Tape not been saved between game sessions.
