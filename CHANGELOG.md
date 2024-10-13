@@ -2,6 +2,9 @@
 
 - All updates related to GangstaPatch will be documented in this file.
 
+## 2024-10-13
+### Changed
+- Use pre-hashed product names for controller mapping rather than hashing them each time.
 ## 2024-09-23
 ### Fixed
 - Shaders with alpha rendering incorrectly:
