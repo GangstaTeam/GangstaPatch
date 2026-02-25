@@ -50,6 +50,7 @@ ShowFPS=0	            ; Shows FPS at left corner.
 SkipLicenseScreen=0	    ; Skips license screen while starting up game.
 SkipMovies=0	        ; Skips intro movies while starting up game.
 WidescreenHUD=1         ; Modifies 4:3 HUD to 16:9 Ratio.
+LegacyControllerMapping=0 ; Use old/legacy controller mapping system (1 = yes, 0 = no)
 
 [Bind]
 WallCover=H             ; Changed to 'H', game's default is 'Enter'

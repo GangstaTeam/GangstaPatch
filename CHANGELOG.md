@@ -2,6 +2,9 @@
 
 - All updates related to GangstaPatch will be documented in this file.
 
+## 2025-02-25
+### Added
+- Legacy Controller Mapping option so people can still complain.
 ## 2024-10-13
 ### Changed
 - Use pre-hashed product names for controller mapping rather than hashing them each time.
