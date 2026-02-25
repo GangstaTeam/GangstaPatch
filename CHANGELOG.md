@@ -2,7 +2,7 @@
 
 - All updates related to GangstaPatch will be documented in this file.
 
-## 2025-02-25
+## 2026-02-25
 ### Added
 - Legacy Controller Mapping option so people can still complain.
 ## 2024-10-13
