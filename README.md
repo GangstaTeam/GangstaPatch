@@ -111,6 +111,7 @@ DebugMenu=0             ; Shows debug option in the pause menu.
     - Weapon bullet rattle sometimes causing camera to spin continuously.
     - Weapon bullet rattle missing maximum side value.
     - Shaders with alpha been incorrectly rendered.
+    - Rage state fix rage depletion on high FPS.
 - Improvements
     - Reverse-Z that fixes z-fighting issues.
     - Properly handle process & thread affinity without hurting performance of the game.
