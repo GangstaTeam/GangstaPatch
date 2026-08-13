@@ -51,6 +51,7 @@ SkipLicenseScreen=0	    ; Skips license screen while starting up game.
 SkipMovies=0	        ; Skips intro movies while starting up game.
 WidescreenHUD=1         ; Modifies 4:3 HUD to 16:9 Ratio.
 LegacyControllerMapping=0 ; Use old/legacy controller mapping system (1 = yes, 0 = no)
+DisableLetterbox=0      ; 0: Disabled (Default), 1: Enabled Letterbox
 
 [Bind]
 WallCover=H             ; Changed to 'H', game's default is 'Enter'
@@ -96,7 +97,8 @@ DebugMenu=0             ; Shows debug option in the pause menu.
     - Controlling sniper rifle zoom with mouse wheel.
     - Option to change Refresh Rate.
     - Option to change Vertical Synchronization.
-    - Option to change Field Of View
+    - Option to change Field Of View.
+    - Option to enable/disable Letterbox.
 - Fixes
     - 3D Audio causing pitch changes.
     - Captions, Auto Player/Vehicle Tape not been saved between game sessions.
