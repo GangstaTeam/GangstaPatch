@@ -72,6 +72,12 @@ FOV=100                 ; Percentage from original FOV (50 to 200)
 Acceleration=1
 SlowOverTarget=1
 
+[Sniper]
+Sensitivity=100         ; Aim speed while scoped, percentage from original (10 to 300)
+ZoomSlowdown=100        ; How much zooming in slows down the aim (0 to 300), 100: Original, 0: No slowdown
+RawZoom=0               ; 0: Original mouse wheel zoom, 1: Raw (every wheel notch zooms the same amount)
+ZoomSpeed=100           ; Zoom per wheel notch, percentage from original (25 to 1000), same scale in both zoom modes
+
 [Patch]
 EnableMemoryAllocator=0   ; 0: Use system's default malloc/free, 1: Use Doug Lea Memory Allocator
 DebugMenu=0             ; Shows debug option in the pause menu.
@@ -95,6 +101,8 @@ DebugMenu=0             ; Shows debug option in the pause menu.
         - Game is calling malloc/free each frame even when rendering basic scene and using memory allocator will re-use already allocated pages and prevent calling system functions.
         - If you're having frametime spikes you might consider enabling this.
     - Controlling sniper rifle zoom with mouse wheel.
+    - Option to change sniper rifle aim sensitivity and how much zooming in slows it down.
+    - Option to use raw mouse wheel zoom for sniper rifle and change the zoom speed.
     - Option to change Refresh Rate.
     - Option to change Vertical Synchronization.
     - Option to change Field Of View.
