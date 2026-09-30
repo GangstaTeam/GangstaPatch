@@ -14,6 +14,10 @@
 5. Place asi file in game folder or plugins folder.
 - If you get error that you're using wrong executable you can try [download v1.00.2 executable](https://mega.nz/file/3CRi2B5A#jL8v6fhbSQrnctYppNIXzozoV9yFVOTsUUssJWODb5g), if that causes game to crash you should download the (Full RIP patched to v1.00.2) from abandonware.
 
+## Compatibility
+- GangstaPatch can be used together with other plugins. Patches on code that other plugins also modify are applied after every plugin is loaded, and skipped if that code was already patched by another plugin (check `GangstaPatch.log` to see which ones were skipped).
+- If you run into a crash or conflict with another plugin, open new issue with your `GangstaPatch.log` and the list of plugins you're using.
+
 ## Controller Prompts Installation
 1. Download png pack of button prompts: 
     - [PlayStation](Files/controller_playstation.png)
@@ -126,11 +130,14 @@ DebugMenu=0             ; Shows debug option in the pause menu.
     - Weapon bullet rattle missing maximum side value.
     - Shaders with alpha been incorrectly rendered.
     - Rage state fix rage depletion on high FPS.
+    - Game crashing when closing it.
+    - Mouse cursor staying visible in-game when used with plugins that change mouse input mode.
 - Improvements
     - Reverse-Z that fixes z-fighting issues.
     - Properly handle process & thread affinity without hurting performance of the game.
     - Registry settings moved to ini file in the game folder.
     - 'settings.ini' is generated with the full list of options on first launch.
+    - Compatibility with other plugins that patch the same code, instead of crashing the game on startup.
     - Removed camera blending, because it interferes with mouse input.
     - Lack of display resolutions in game option.
     - Vehicle glass shader rewritten to support windshield & window damage and better reflection to match console versions.
