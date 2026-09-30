@@ -26,7 +26,7 @@
 ...
 
 ## INI Settings
-- All these options are configurable in 'settings.ini'. The file is automatically created when launching game for the first time with the patch otherwise you can create it manually.
+- All these options are configurable in 'settings.ini'. The file is automatically created with all options when launching game for the first time with the patch, any missing option is added on every launch without changing your existing values.
 - Most options are configurable in game options.
 ```ini
 [Scarface]
@@ -44,6 +44,7 @@ Mouse=10                ; Mouse speed
 Captions=0              ; 0: Disabled (Default), 1: Enabled
 RefreshRate=60          ; Monitor refresh-rate (Full-screen Only)
 VSync=1                 ; 0: Disable (Unlocks FPS), 1: Enable
+FPSLimit=0              ; 0: Disabled, any other value limits FPS natively (30 matches console gameplay balance)
 LanguageID=E            ; E (English, Czech, German, Polish, Russian), F (France), I (Italian), S (Spanish) -> Requires specific game files for functionality
 Vibrance=50             ; Adjustable vibrance (0 - 100) (50 -> Default)
 ShowFPS=0	            ; Shows FPS at left corner.
@@ -105,6 +106,9 @@ DebugMenu=0             ; Shows debug option in the pause menu.
     - Option to use raw mouse wheel zoom for sniper rifle and change the zoom speed.
     - Option to change Refresh Rate.
     - Option to change Vertical Synchronization.
+    - Built-in FPS limiter (Off, 30, 60 or monitor refresh rate in game options, any value in ini).
+        - Unlike external limiters (driver/RTSS) it runs inside the game loop, so limiting to 30 FPS doesn't cause slow-motion.
+        - Useful to play at 30 FPS for original console gameplay balance.
     - Option to change Field Of View.
     - Option to enable/disable Letterbox.
 - Fixes
@@ -126,6 +130,7 @@ DebugMenu=0             ; Shows debug option in the pause menu.
     - Reverse-Z that fixes z-fighting issues.
     - Properly handle process & thread affinity without hurting performance of the game.
     - Registry settings moved to ini file in the game folder.
+    - 'settings.ini' is generated with the full list of options on first launch.
     - Removed camera blending, because it interferes with mouse input.
     - Lack of display resolutions in game option.
     - Vehicle glass shader rewritten to support windshield & window damage and better reflection to match console versions.
