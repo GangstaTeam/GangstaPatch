@@ -26,6 +26,35 @@
 2. Place the file inside game folder under folder `patch`, create one if doesn't exist.
 3. Rename the file to `controller.png`.
 
+## Custom Controller Mapping
+- Xbox and other XInput controllers (including DS4Windows, DSX, handhelds, etc...) use Xbox mapping automatically.
+- If your controller has wrong or missing buttons, you can map it manually:
+    1. Find your controller name in `GangstaPatch.log` (`New controller instance (...)`) and set it as `Name` under `[Controller]`.
+    2. Launch the game once, all mapping options will be added to `[Controller]` section.
+    3. Open `joy.cpl` (Win + R), select your controller and open Properties to see button numbers when pressing them.
+    4. Set every option to the button/axis of your controller, button number is the one from `joy.cpl` minus 1.
+```ini
+[Controller]
+Name=USB Game Controllers
+LeftStickX=X Axis
+LeftStickY=Y Axis
+RightStickX=Z Rotation
+RightStickY=Z Axis
+DPad=Hat Switch
+Cross=Button 2
+Circle=Button 3
+Triangle=Button 1
+Square=Button 0
+R1=Button 6
+R2=Button 7
+R3=Button 11
+L1=Button 4
+L2=Button 5
+L3=Button 10
+Start=Button 9
+Select=Button 8
+```
+
 ## Known Issues
 ...
 
@@ -61,6 +90,10 @@ DisableLetterbox=0      ; 0: Disabled (Default), 1: Enabled Letterbox
 [Bind]
 WallCover=H             ; Changed to 'H', game's default is 'Enter'
 Walk=ALT
+
+[Controller]
+Name=                   ; Controller name from GangstaPatch.log to use custom mapping (see Custom Controller Mapping), empty: Disabled
+Deadzone=0              ; Analog stick deadzone in percent (0 to 90), useful for stick drift
 
 [Windowed]
 Mode=0	                ; 0: None, 1: Windowed, 2: Windowed Borderless
@@ -115,6 +148,7 @@ DebugMenu=0             ; Shows debug option in the pause menu.
         - Useful to play at 30 FPS for original console gameplay balance.
     - Option to change Field Of View.
     - Option to enable/disable Letterbox.
+    - Custom controller mapping and analog stick deadzone.
 - Fixes
     - 3D Audio causing pitch changes.
     - Captions, Auto Player/Vehicle Tape not been saved between game sessions.
@@ -132,6 +166,9 @@ DebugMenu=0             ; Shows debug option in the pause menu.
     - Rage state fix rage depletion on high FPS.
     - Game crashing when closing it.
     - Mouse cursor staying visible in-game when used with plugins that change mouse input mode.
+    - Controller buttons not working on non-English Windows.
+    - Controller not being used when other devices (headsets, RGB controllers, etc...) are detected as joysticks.
+    - Game crashing on startup when display device can't be created with current settings (e.g. with D3D9 wrappers).
 - Improvements
     - Reverse-Z that fixes z-fighting issues.
     - Properly handle process & thread affinity without hurting performance of the game.
@@ -142,7 +179,8 @@ DebugMenu=0             ; Shows debug option in the pause menu.
     - Lack of display resolutions in game option.
     - Vehicle glass shader rewritten to support windshield & window damage and better reflection to match console versions.
     - Vehicle shininess modified to match console versions.
-    - Better support for Xbox controller mapping.
+    - Better support for Xbox controller mapping, any XInput controller now uses Xbox mapping.
+    - More detailed crash information in 'GangstaPatch.log' (stack trace and loaded modules).
     - Multiple performance improvements:
         - Due to decision of using v1.00.2 (ActiveMARK protected) version of game, there are bunch of left-over checks that has been removed. There are also some left-over stuff that has been removed that could cause micro-stutters and much more.
     - Mortar UpForce physics been wrongly calculated above 30 FPS.
