@@ -169,6 +169,8 @@ DebugMenu=0             ; Shows debug option in the pause menu.
     - Controller buttons not working on non-English Windows.
     - Controller not being used when other devices (headsets, RGB controllers, etc...) are detected as joysticks.
     - Game crashing on startup when display device can't be created with current settings (e.g. with D3D9 wrappers).
+    - Wall cover keyboard bind not working when 'settings.ini' options have comments on the same line.
+    - Walk & Wall cover keyboard binds being lost after loading game or mission.
 - Improvements
     - Reverse-Z that fixes z-fighting issues.
     - Properly handle process & thread affinity without hurting performance of the game.
