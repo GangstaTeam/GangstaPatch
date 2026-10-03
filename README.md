@@ -80,6 +80,8 @@ VSync=1                 ; 0: Disable (Unlocks FPS), 1: Enable
 FPSLimit=0              ; 0: Disabled, any other value limits FPS natively (30 matches console gameplay balance)
 LanguageID=E            ; E (English, Czech, German, Polish, Russian), F (France), I (Italian), S (Spanish) -> Requires specific game files for functionality
 Vibrance=50             ; Adjustable vibrance (0 - 100) (50 -> Default)
+Contrast=0              ; Additional contrast (0 - 90) (0 -> Default)
+Temperature=0           ; Colour temperature (-100 - 100), negative is cooler (less yellow), positive is warmer
 ShowFPS=0	            ; Shows FPS at left corner.
 SkipLicenseScreen=0	    ; Skips license screen while starting up game.
 SkipMovies=0	        ; Skips intro movies while starting up game.
@@ -104,6 +106,7 @@ EmissionRate=2          ; 0: Disabled, 1: Quality, 2: Balanced, 3: Performance, 
 [PostProcessFX]
 Enable=0                ; Enables blur & bloom.
 Bloom=50                ; The game uses dynamic value, using this option will force the value to be always same
+ColourFX=1              ; Screen colour pass (saturation, contrast & tint), 0: Disabled (duller colours)
 
 [Camera]
 FOV=100                 ; Percentage from original FOV (50 to 200)
@@ -128,9 +131,10 @@ DebugMenu=0             ; Shows debug option in the pause menu.
     - Dynamic Blood similar to PS2 Version.
     - Native way of running game in windowed/windowed borderless.
     - Widescreen HUD (Work in progress).
-    - Changing vibrance of display.
+    - Changing vibrance, contrast & colour temperature of display.
     - Option to change emission rate for Particle Emitter.
     - Option to toggle unused Post-Process FX.
+    - Option to toggle screen colour pass (Colour FX).
     - Option to skip license screen & movies.
     - Cheat codes for blue suit outfits:
         - BLUE, BLUEPIN
@@ -183,6 +187,7 @@ DebugMenu=0             ; Shows debug option in the pause menu.
     - Vehicle shininess modified to match console versions.
     - Better support for Xbox controller mapping, any XInput controller now uses Xbox mapping.
     - More detailed crash information in 'GangstaPatch.log' (stack trace and loaded modules).
+    - Crash logging no longer stops when other plugins raise and handle their own exceptions at startup.
     - Multiple performance improvements:
         - Due to decision of using v1.00.2 (ActiveMARK protected) version of game, there are bunch of left-over checks that has been removed. There are also some left-over stuff that has been removed that could cause micro-stutters and much more.
     - Mortar UpForce physics been wrongly calculated above 30 FPS.
