@@ -94,6 +94,7 @@ WallCover=H             ; Changed to 'H', game's default is 'Enter'
 Walk=ALT
 
 [Controller]
+ButtonPrompts=1         ; 0: Disables patch controller button prompts (use it if other plugin provides its own prompts)
 Name=                   ; Controller name from GangstaPatch.log to use custom mapping (see Custom Controller Mapping), empty: Disabled
 Deadzone=0              ; Analog stick deadzone in percent (0 to 90), useful for stick drift
 
@@ -171,6 +172,9 @@ DebugMenu=0             ; Shows debug option in the pause menu.
     - Game crashing when closing it.
     - Mouse cursor staying visible in-game when used with plugins that change mouse input mode.
     - Controller buttons not working on non-English Windows.
+    - Controller buttons being shifted with virtual controllers (Xidi, etc...).
+    - Controller prompts showing wrong buttons in driving tutorial and other hints (accelerate, brake, handbrake, steer, look back...).
+    - Controller prompts breaking when other plugin provides its own prompts.
     - Controller not being used when other devices (headsets, RGB controllers, etc...) are detected as joysticks.
     - Game crashing on startup when display device can't be created with current settings (e.g. with D3D9 wrappers).
     - Wall cover keyboard bind not working when 'settings.ini' options have comments on the same line.
