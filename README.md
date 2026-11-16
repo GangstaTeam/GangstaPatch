@@ -120,6 +120,11 @@ ZoomSlowdown=100        ; How much zooming in slows down the aim (0 to 300), 100
 RawZoom=0               ; 0: Original mouse wheel zoom, 1: Raw (every wheel notch zooms the same amount)
 ZoomSpeed=100           ; Zoom per wheel notch, percentage from original (25 to 1000), same scale in both zoom modes
 
+[Sound]
+MusicVolume=10          ; Saved from game options (0 to 10)
+SFXVolume=10
+DialogueVolume=10
+
 [Patch]
 EnableMemoryAllocator=0   ; 0: Use system's default malloc/free, 1: Use Doug Lea Memory Allocator
 DebugMenu=0             ; Shows debug option in the pause menu.
@@ -157,6 +162,7 @@ DebugMenu=0             ; Shows debug option in the pause menu.
 - Fixes
     - 3D Audio causing pitch changes.
     - Captions, Auto Player/Vehicle Tape not been saved between game sessions.
+    - Music, SFX & Dialogue volumes not been saved between game sessions.
     - Character animations frametime been clamped while playing on high FPS causing animations to play in fast-motion.
     - Character movement having inconsistent speed.
     - Culling mode causing certain parts of model render as invisible.
